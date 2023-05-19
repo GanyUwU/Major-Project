@@ -1,0 +1,58 @@
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative;
+    width: 1140px;
+    max-width: 100%;
+}
+
+.body_content {
+    border: none;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.body_content {
+    width: 100%;
+    float: none;
+    padding: 20px 15px 0px 18px;
+}
+.body_content {
+    background: #fff;
+    padding: 20px 20px 35px 20px;
+}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+.ps_title h1 {
+    margin-bottom: 5px;
+}
+h1 {
+    font-size: 1.2em;
+}
+h1 {
+    font-size: 1.714em;
+    margin-bottom: 15px;
+}
+.ps_title .share-wrap {
+    margin-left: auto;
+    /* margin-right: 10px; */
+}
+.share-wrap {
+    display: flex;
+    font-size: 0.857em;
+}
+.share-post {
+    position: relative;
+    margin-left: 7px;
+    cursor: pointer;
+}
+.share_btn {
+    display: flex;
+}

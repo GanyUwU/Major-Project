@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="slide.css">
+    <link rel="stylesheet" href="footer.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <script src="sandbox.js"></script>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+      }
+      </script>
+      
+      <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    
+    <title>Gov.in</title>
+</head>
+<body>
+ 
+    <div class="top-container">
+      <img src="pics/shivsenalogo.png" alt=" shiv sena logo" class="shivsenalogo">
+      
+      <h1 style="font-size: x-large; color: #f7f1f1; margin-top:0.8em;">आपला माणूस</h1>
+
+       <div class="top-right">
+        <div id="google_translate_element"></div>
+       </div>
+       </div>
+
+    <div class="nav-bar">
+        
+      <div class="dropdown">
+        <button class="dropbtn">Activities</button>
+        <div class="dropdown-content">
+          <a href="/blog/blogmain.html">Blogs</a>
+          <a href="#">poll/survey</a>
+          <a href="#">Discuss </a>
+        </div>
+      </div>
+      
+      <div class="dropdown">
+        <button class="dropbtn">Feedback</button>
+        <div class="dropdown-content">
+          <a href="blog/help.html">Help</a>
+          <a href="blog/feedback.html">Feedback</a>
+          <a href="blog/faq.html">FAQ</a>
+        </div>
+      </div>
+      
+        <a href="static/login.html"><button class="b" id="b1" >Login 🔒</button></a>
+        <a href="static/register.html"><button  class="b" id="b2">Register ✏️</button></a>
+    </div> 
+<br>
+
+<div class="slider">
+  <div class="slides">
+    <!--radio buttons start-->
+    <input type="radio" name="radio-btn" id="radio1">
+    <input type="radio" name="radio-btn" id="radio2">
+    <input type="radio" name="radio-btn" id="radio3">
+    <input type="radio" name="radio-btn" id="radio4">
+    <!--radio buttons end-->
+    <!--slide images start-->
+    <div class="slide first">
+      <img src="pics/seven.jfif" alt="">
+    </div>
+    <div class="slide">
+      <img src="pics/two.jfif" alt="">
+    </div>
+    <div class="slide">
+      <img src="pics/three.jfif" alt="">
+    </div>
+    <div class="slide">
+      <img src="pics/six.jfif" alt="">
+    </div>
+    <!--slide images end-->
+    <!--automatic navigation start-->
+    <div class="navigation-auto">
+      <div class="auto-btn1"></div>
+      <div class="auto-btn2"></div>
+      <div class="auto-btn3"></div>
+      <div class="auto-btn4"></div>
+    </div>
+    <!--automatic navigation end-->
+  </div>
+  <!--manual navigation start-->
+  <div class="navigation-manual">
+    <label for="radio1" class="manual-btn"></label>
+    <label for="radio2" class="manual-btn"></label>
+    <label for="radio3" class="manual-btn"></label>
+    <label for="radio4" class="manual-btn"></label>
+  </div>
+  <!--manual navigation end-->
+</div>
+
+<!--image slider end-->
+<script type="text/javascript">
+  var counter = 1;
+setInterval(function(){
+document.getElementById('radio' + counter).checked = true;
+counter ++;
+if(counter > 4){
+counter = 1;
+}
+},5000)
+ </script>
+<br>
+<h2 class="select-ward">Select your Ward :</h2>
+
+ <div class="ward-list">
+ 
+  <div id="ward1" class="ward"><a href="/wards/ward.html" class="w">Ward no.109</a></div>
+ 
+  <div id="ward2" class="ward"><a href="/wards/ward110.html" class="w">Ward no.110</a></div>
+
+  <div id="ward3" class="ward"><a href="/wards/ward112.html" class="w">Ward no.112</a></div>
+
+  <div id="ward4" class="ward"><a href="/wards/ward113.html" class="w">Ward no.113</a></div>
+
+  <div id="ward5" class="ward"><a href="/wards/ward114.html" class="w">Ward no.114</a></div>
+
+  <div id="ward6" class="ward"><a href="/wards/ward115.html" class="w">Ward no.115</a></div>
+
+  <div id="ward7" class="ward"><a href="/wards/ward116.html" class="w">Ward no.116</a></div>
+
+ </div>
+ <main>
+  <div class="main-blog-page col-3">
+     
+    <div class="heading">
+      <h2 class="h2">All Results Under Apla Manus</h2>
+      </div>
+    <div class="content-blog"> 
+    <!--blog no 1-->
+        <div class="blog-no1-img">
+          <div class="i"><img src="pics/blog1.jpg" alt="In an attempt to promote value of water in general and for supporting Area-wide efforts on water conservation and sustainable development of water resources, Department of Water Resources, has launched the 3rd edition of “Water Heroes: Share Your Stories” Contest. "></div>
+            <span class="content_type blog">Blog</span>
+           <span class="blog_date">Posted on : 30 Jan 2023</span>
+           <a id="1" href="-------- " class="fb" title="Facebook">Facebook</a>
+           <a id="1a" href="------- " class="tw" title="twitter">Twitter</a>
+           <br>
+           <a href="/blog/blogno1.html">winner announcement blog for logod esign competition for firozabad glass industry</a>
+           <p>In an attempt to promote value of water in general and for supporting Area-wi ...</p>	
+           <div class="url">
+           <a href="/blog/blogno1.html" target="_blank" class="read_more" title="Read More">Read More</a>	
+           </div>
+        </div>
+  
+       
+   <!--blog no 2.-->
+        <div class="blog-no2-img">
+          <div class="i"><img src="pics/blog2.jpg" alt="Winner Announcement Blog for Logo Design Competition for Bhandup Glass Industry" title="Winner Announcement Blog for Logo Design Competition for Bhandup Glass Industry "></div>
+            <span class="content_type blog">Blog</span>
+           <span class="blog_date">Posted on : 18 Jan 2023</span>
+           <a id="2" href="-------- " class="fb" title="Facebook">Facebook</a>
+           <a id="2a" href="------- " class="tw" title="twitter">Twitter</a>
+           <br>
+           <a href="/blog/blogno2.html">Winner Announcement Blog for Logo Design Competition for Bhandup Glass Industry</a>
+           <p>District Export Committee, Bhandup conducted a logo designing competition for  ...</p>	
+           <div class="url">
+           <a href="/blog/blogno2.html" target="_blank" class="read_more" title="Read More">Read More</a>	
+          </div>
+        </div>
+  
+    <!--blog no 3-->
+        <div class="blog-no3-img">
+          <div class="i"><img src="pics/blog3.jpg" alt="Winner Announcement for Veergatha 2.0 " title=" Winner Announcement for Veergatha 2.0"></div>
+          <span class="content_type blog">Blog</span>
+          <span class="blog_date">PPosted on : 04 Jan 2023</span>
+          <a id="3" href="-------- " class="fb" title="Facebook">Facebook</a>
+          <a id="3a" href="------- " class="tw" title="twitter">Twitter</a>
+          <br>
+          <a href="/blog/blogno3.html">Winner Announcement for Veergatha 2.0 </a>
+          <p>Veergatha 1.0 was received very enthusiastically pan India. Inspired by its succ ...</p>	
+          <div class="url">
+          <a href="/blog/blogno3.html" target="_blank" class="read_more" title="Read More">Read More</a>	
+          </div>
+        </div>
+         <!--blog no 4-->
+      <div class="blog-no4-img">
+        <div class="i"><img src="pics/blog1.jpg" alt=" Winner Announcement of Water Heroes – Share Your Stories Contest 3.0 for the month of February 2023"></div>
+     	   <span class="content_type blog">Blog</span>
+         <span class="blog_date">Posted on : 07 Mar 2023</span>
+         <a id="4" href="-------- " class="fb" title="Facebook">Facebook</a>
+         <a id="4a" href="------- " class="tw" title="twitter">Twitter</a>
+         <br>
+         <a href="/blog/blogno4.html">Winner Announcement of Water Heroes – Share Your Stories Contest 3.0 for the month of February 2023</a>
+         <p>In an attempt to promote value of water in general and for supporting Area-wi ...</p>
+         <div class="url">
+         <a href="/blog/blogno4.html" target="_blank" class="read_more" title="Read More">Read More</a>	</div>
+      </div>
+
+  <!--blog no 5-->    
+      <div class="blog-no5-img">
+        <div class="i"><img src="pics/blog2.jpg" alt="Winner Announcement for Sabka Vikas MahaQuiz- Jal Jeevan Mission" title="Winner Announcement for Sabka Vikas MahaQuiz- Jal Jeevan Mission"></div>
+     	   <span class="content_type blog">Blog</span>
+         <span class="blog_date">Posted on : 14 Nov 2022</span>
+         <a id="5" href="-------- " class="fb" title="Facebook">Facebook</a>
+         <a id="5a" href="------- " class="tw" title="twitter">Twitter</a>
+         <br>
+         <a href="/blog/blogno5.html">Winner Announcement for Sabka Vikas MahaQuiz- Jal Jeevan Mission</a>
+         <p>India under the leadership of Prime Minister Shri Narendra Modi has effected a p ...</p>	
+         <div class="url">
+         <a href="/blog/blogno5.html"  class="read_more" title="Read More">Read More</a>	</div>
+      </div>
+      
+  <!--blog no 6----------------------------------------->    
+      <div class="blog-no6-img">
+        <div class="i"><img src="pics/blog3.jpg" alt="Closure Announcement of &quot;IDF World Dairy summit Quiz&quot;" title="Closure Announcement of &quot;IDF World Dairy summit Quiz&quot;"></div>
+     	   <span class="content_type blog">Blog</span>
+         <span class="blog_date">Posted on : 14 Nov 2022</span>
+         <a id="6" href="-------- " class="fb" title="Facebook">Facebook</a>
+         <a id="6a" href="------- " class="tw" title="twitter">Twitter</a>
+         <br>
+         <a href="/blog/blogno6.html">Closure Announcement of "IDF World Dairy summit Quiz"</a>
+         <p>India hosted the World Dairy Summit 2022 (WDS 2022) by International Dairy Feder ..</p>	
+         <div class="url" style="vertical-align: baseline;">
+         <a href="/blog/blogno6.html" class="read_more" title="Read More" >Read More</a>	</div>
+      </div>
+      </div>  
+    
+    </div>
+  <!---
+    <div class="item-list"><ul class="pager pager-load-more"><li class="pager-next first last"><a href="/home/blog/?page=1" title="+ More Blogs">+ More Blogs</a></li>
+    </ul></div>-->
+  
+ <br><br><br>
+<footer class="wrapper footer-wrapper">
+  <div class="triangle-2"></div>
+  <div class="triangle-1"></div>
+  <div class="footer-top-wrapper">
+    <div class="footer-links">
+      <div class="flink-block footer-act-links">
+        <span class="col-1-label ft-label">Activities</span>
+        <nav id="menu" class="block block-menu">
+          <div class="contents">
+            <ul class="menu clearfix">
+              <li class="first leaf"><a href="blog/blogmain.html" title="Blogs">Blogs</a></li>
+              <li class="leaf"><a href="#" title="Poll/Survey">Poll/Survey</a></li>
+              <li class="last leaf"><a href="#" title="Discuss">Discuss</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="flink-block footer-act-links">
+        <span class="col-2-label ft-label">Feedback</span>
+        <nav id="menu" class="block block-menu">
+          <div class="contents">
+            <ul class="menu clearfix">
+              <li class="first leaf"><a href="blog/help.html" title="Help">Help</a></li>
+              <li class="leaf"><a href="blog/feedback.html" title="Feedback">Feedback</a></li>
+              <li class="last leaf"><a href="blog/faq.html" title="FAQ">FAQ</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="flink-block footer-logo-banner">
+        <span class="col-3-label ft-label">Useful Links</span>
+          <div class="block-menu">
+            <ul class="useful-links">
+              <li><a href="#" title="Quiz" class="lin" style="color: #000;  display: flex;">
+                <img src="/pics/quiz-mygov.png" alt="quiz">Quiz</a>
+              </li>
+              <li><a href="#" title="Transforming" class="lin" style="color: #000; display: flex; "><img src="/pics/transforming-india.png" alt="quiz">Transforming-Bhandup</a></li>
+              <li><a href="#" title="Pledge" class="lin" style="color: #000;  display: flex;"><img src="/pics/pledge.png" alt="quiz">Pledge</a></li>
+              <li><a href="#" title="Swachh-bharat" class="lin" style="color: #000;  display: flex;"><img src="/pics/swachh-bharat.png" alt="quiz">Swachh-bharat</a></li>
+            </ul>
+          </div>
+          <div class="block-menu">
+            <ul class="useful-links">
+              <li><a href="https://www.india.gov.in/" title="Swachh-bharat" class="lin" style="color: #000;  display: flex;"><img src="/pics/india-gov.png" alt="quiz" style="width: 10em;"></a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="social-content">
+      <p>Follow us</p>
+      <a class="btn btn-primary" style="background-color: #ac2bac;" href="https://www.instagram.com/aplamanus001/" role="button"><i class="fab fa-instagram"></i></a>
+      <a class="btn btn-primary" style="background-color: #55acee;" href="https://twitter.com/aplamanus001" role="button"><i class="fab fa-twitter"></i></a>
+      <a class="btn btn-primary" style="background-color: #3b5998;" href="https://www.facebook.com/profile.php?id=100091483627151" role="button"><i class="fab fa-facebook-f"></i></a>
+      <a class="btn btn-primary" style="background-color: #ed302f;" href="https://www.youtube.com/channel/UCS3gmaq-OpWvnCkftt4yghQ" role="button"><i class="fab fa-youtube"></i></a>
+      <a class="btn btn-primary" style="background-color: #25d366;" href="#!" role="button"><i class="fab fa-whatsapp"></i></a>
+    </div>
+   
+  </div>
+  <div id="block comman-utils-developed-by-block" class="block block-comman-utils">
+    <div class="content">
+      <div class="footer-info-wrapper">
+        <div class="developed-by-section">
+          <div class="dev-by-text">
+            <a href="#" target="_blank" class="" title="Logo">
+              <img src="" alt="">
+             </a>
+             <div class="content">
+              <p>lorem ispsum</p>
+             </div>
+          </div>
+          <div class="goc-logo"></div>
+        </div>
+        <div class="server-info">
+          <p>Copyright <span><span>© AaplaManus 2023</span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+ 
+</body>
+</html>
